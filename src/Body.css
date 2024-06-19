@@ -1,0 +1,69 @@
+.body{
+    border: 1px solid black;
+    flex:1.0;
+    background-color: black;
+    background: linear-gradient(black,rgba(0,20,30,50));
+    height:103vh;
+    color:white;
+    overflow-y: overlay;
+    padding:30px;
+}
+
+
+/*targets the background image at the body*/
+.back_image{
+    height:20vw;
+    margin: 0 20px;
+    box-shadow: 0 4px 60px rgba(0,0,50,0.5);
+}
+
+
+/*targets the heart and more icon the body */
+.body__icons{
+     display:flex; /*displays icon in one line*/
+}
+
+
+.body__play{
+    /*targets the play button on the body*/
+    font-size:50px !important;
+    margin-left: 40px;
+    margin-bottom:10px ;
+}
+
+
+.body__play:hover{
+    /*css applied when we hover across the playButton int the body*/
+    transition:transform 0.2s ease-in-out ;
+    transform: scale(1.2)!important;
+}
+
+
+/*displays info. of the body*/
+.body__info{
+    display:flex;/*displaysbody info in the rightmost  part*/
+    padding:10px;
+    align-items: flex-end;
+    
+}
+
+/*targets the p tag inthe body info.*/
+.body__info strong{
+    padding-left:18px;
+    font-size:30px ;
+  
+
+}
+
+/*targets h2 tag in the body*/
+.body__infoText h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding-left: 18px;
+}
+
+.body::-webkit-scrollbar{
+    display:none;
+}
+
+
